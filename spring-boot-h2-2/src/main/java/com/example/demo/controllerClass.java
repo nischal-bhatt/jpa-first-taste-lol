@@ -14,9 +14,11 @@ public class controllerClass {
 	private StudentRepository studentRepo;
 	
 	@GetMapping("/hi")
-	public void shit()
+	public String shit()
 	{
+
 		System.out.println("hey");
+	    return "br";
 	}
 	
 	@GetMapping("/bhatt")
